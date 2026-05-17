@@ -6,7 +6,7 @@ import com.pdm0126.taller2.model.Restaurant
 class RestaurantRepositoryImpl : RestaurantRepository {
 
     private val restaurants = listOf(
-        // ─── Comida Rápida ───────────────────────────────────────────────────
+        //  Comida Rápida
         Restaurant(
             id = 1,
             name = "Burger House",
@@ -28,7 +28,7 @@ class RestaurantRepositoryImpl : RestaurantRepository {
             id = 2,
             name = "Pollo Loco",
             description = "Pollo asado y frito al estilo casero, con salsas secretas de la abuela.",
-            imageUrl = "https://images.unsplash.com/photo-1598103442097-8b74394b95c7?w=400",
+            imageUrl = "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=400",
             categories = listOf("Comida Rápida"),
             menu = listOf(
                 Dish(5, "Pollo Entero Asado", "Pollo marinado en especias y asado al carbón",
@@ -39,7 +39,7 @@ class RestaurantRepositoryImpl : RestaurantRepository {
                     "https://images.unsplash.com/photo-1553909489-cd47e0907980?w=400")
             )
         ),
-        // ─── Italiana ────────────────────────────────────────────────────────
+        //Italiana
         Restaurant(
             id = 3,
             name = "Pizza Place",
@@ -61,7 +61,7 @@ class RestaurantRepositoryImpl : RestaurantRepository {
             id = 4,
             name = "Bella Pasta",
             description = "Pasta fresca hecha a mano todos los días con recetas italianas originales.",
-            imageUrl = "https://images.unsplash.com/photo-1551183053-bf91798d458c?w=400",
+            imageUrl = "https://images.unsplash.com/photo-1473093226795-af9932fe5856?w=400",
             categories = listOf("Italiana"),
             menu = listOf(
                 Dish(12, "Spaghetti Carbonara", "Pasta con huevo, queso pecorino, guanciale y pimienta",
@@ -87,16 +87,16 @@ class RestaurantRepositoryImpl : RestaurantRepository {
                     "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?w=400")
             )
         ),
-        // ─── Asiática ────────────────────────────────────────────────────────
+        //  Asiática
         Restaurant(
             id = 6,
             name = "Sushi Bar",
             description = "Sushi fresco preparado por chefs japoneses con pescado de primera calidad.",
-            imageUrl = "https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=400",
+            imageUrl = "https://images.unsplash.com/photo-1553621042-f6e147245754?w=400",
             categories = listOf("Asiática"),
             menu = listOf(
                 Dish(18, "Roll California", "Cangrejo, aguacate y pepino envuelto en ajonjolí",
-                    "https://images.unsplash.com/photo-1617196034094-4fd1a12e3f56?w=400"),
+                    "https://images.unsplash.com/photo-1559466273-d95e72debaf8?w=400"),
                 Dish(19, "Sashimi de Salmón", "Finas láminas de salmón fresco con wasabi y jengibre",
                     "https://images.unsplash.com/photo-1562802378-063ec186a863?w=400"),
                 Dish(20, "Ramen Tonkotsu", "Caldo de cerdo cremoso con chashu, huevo y nori",
@@ -120,7 +120,7 @@ class RestaurantRepositoryImpl : RestaurantRepository {
                     "https://images.unsplash.com/photo-1525755662778-989d0524087e?w=400")
             )
         ),
-        // ─── Saludable ───────────────────────────────────────────────────────
+        // Saludable
         Restaurant(
             id = 8,
             name = "Green Bowl",
@@ -138,7 +138,7 @@ class RestaurantRepositoryImpl : RestaurantRepository {
                     "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=400")
             )
         ),
-        // ─── Postres ─────────────────────────────────────────────────────────
+        // Postres
         Restaurant(
             id = 9,
             name = "Sweet Corner",
@@ -154,7 +154,7 @@ class RestaurantRepositoryImpl : RestaurantRepository {
                     "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=400")
             )
         ),
-        // ─── Bebidas ─────────────────────────────────────────────────────────
+        // Bebidas
         Restaurant(
             id = 10,
             name = "Juice & Co",
@@ -172,7 +172,7 @@ class RestaurantRepositoryImpl : RestaurantRepository {
                     "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400")
             )
         ),
-        // ─── Comida Rápida (extra) ────────────────────────────────────────────
+        //Comida Rápida (extra)
         Restaurant(
             id = 11,
             name = "Tacos Mex",
@@ -188,7 +188,7 @@ class RestaurantRepositoryImpl : RestaurantRepository {
                     "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?w=400")
             )
         ),
-        // ─── Asiática + Saludable ─────────────────────────────────────────────
+        //  Asiática + Saludable
         Restaurant(
             id = 12,
             name = "Pho Saigon",
